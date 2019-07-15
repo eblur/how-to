@@ -1,6 +1,8 @@
 
 A handy place to store how-to references for myself and students.
 
+For educational purposes only. For more details, see [license.md](https://github.com/eblur/how-to/blob/master/license.md)
+
 ## Anaconda Python
 
 [01 - Installing Astropy and Related Packages with Anaconda](https://github.com/eblur/how-to/blob/master/anaconda-python/01-conda_astropy_install.rst)
