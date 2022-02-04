@@ -71,14 +71,12 @@ Step 3: Set up a Jupyter Notebook for the new environment
 
        source activate python2
 
--  Check that you have ipykernel installed
+-  Install ipykernel (NOTE: I recently started receiving errors with the standard ipykernel install. I found a `blog post <https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084>`__ that recommended installing it from the anaconda channel as follows. This eliminated the error.)
 
    ::
 
-       conda list | grep ipykernel
+       conda install -c anaconda ipykernel
 
-If you do not see any output, install it with
-``conda install ipykernel``
 
 -  Install that environment for Jupyter notebook. In this case, we are
    choosing a display name, "python2", that matches the environment name, 
@@ -86,7 +84,7 @@ If you do not see any output, install it with
 
     ::
 
-        python -m ipykernel install --user --name python2 --display-name "python2"`
+        python -m ipykernel install --user --name=python2
 
 - Now leave that environement
 
